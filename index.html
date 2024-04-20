@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate password</title>
+  
+</head>
+<body>
+<h1>Generate password</h1>
+
+<div class="def">
+        <input type="radio" id="option1" name="options" value="Letters">
+        <label for="option1">Letters</label><br>
+      
+        <input type="radio" id="option2" name="options" value="Letters & Numbers">
+        <label for="option2">Letters & Numbers</label><br>
+      
+        <input type="radio" id="option3" name="options" value="Letters , Numbers & chars" checked>
+        <label for="option3">Letters , Numbers & chars</label><br>
+
+</div>
+<label for="len">length of password</label>
+<input type="range" name="numbers" id="len" min="5" max="30" value="20">
+<span>20</span>
+
+<div class="text">
+    <input type="text" name="" id="text" spellcheck="false">
+<button class="copy">copy
+    <div class="copied">copied ✔</div>
+</button>
+</div>
+
+<button class="gen">🔑 New password</button>
+<script src="main.js"></script>
+</body>
+</html>

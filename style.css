@@ -1,0 +1,58 @@
+* {
+    color: green;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #171720;
+    border: solid 5px #3b8e3b;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+input[ type="radio"] {
+    margin: 10px;
+}
+
+#text {
+    outline: none;
+    border: 1px solid #3b8e3b;
+    width: 400px;
+    padding: 5px;
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+@media (max-width:700px) {
+    #text {
+        width: 250px;
+        font-size: 14px;
+    }
+
+}
+
+.copy {
+    margin-left: 10px;
+    padding: 5px;
+    position: relative;
+}
+
+.copied {
+    color: #3b8e3b;
+    position: absolute;
+    top: -40px;
+    right: 3px;
+    display: none;
+    background-color: #171720;
+
+}
+
+.gen {
+    padding: 10px;
+    display: block;
+}
